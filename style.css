@@ -1,0 +1,27 @@
+header{
+	color: white;
+	background-color: lightblue;
+}
+#sec1, #sec2, #sec3{
+	border-radius: 25px;
+	border: 2px solid blue;
+	padding: 1%;
+	margin: 1%;
+}
+.center{
+	text-align: center;
+}
+.row: after{
+	content: "";
+	display:table;
+	clear: both;
+}
+.column{
+	float: left;
+	width: 95%;
+}
+@media screen and (max-width: 900px){
+	.column{
+		width: 98%;
+	}
+}
